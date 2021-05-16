@@ -194,17 +194,11 @@ h2{
 }
 
 @media (max-width: 700px) {
-    body{
-        background-color: yellow;
-    }
-    nav {
+     .primary-list{
         display: flex;
-
-    }
-    .primary-list{
-        display: flex;
-        display: column;
-         align-self: center;
+        flex-direction: column;
+        align-self: center;
+        padding: var(--big-gap);
     }
  
     .col-medium-second{
@@ -215,6 +209,11 @@ h2{
     .hero{
         display: flex;
         flex-direction: column;
+    }
+
+    .col-bas{
+        width: 100%;
+        text-align: center;
     }
 }
 
